@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    id表示获取到对象标识，
+           class  创建哪个类的对象
+           通过 name（参数的名字）,type（参数的类型） , inde（参数的索引） 等控制使用哪个构造方法-->
+    <bean id="peo"  class="com.People">
+<!--        ref 引用另一个bean  value  基本数据类型或String 等-->
+        <constructor-arg index="0"  value="123"> </constructor-arg>
+        <constructor-arg index="1"  value="张三"></constructor-arg>
+<!--        为对象赋值-->
+        <property name="id" value="123"></property>
+        <property name="name">
+            <value> zhangs</value>
+        </property>
+        <property name="list">
+            <list>
+                <value>list1</value>
+                <value>list2</value>
+                <value>list3</value>
+                <value>list4</value>
+            </list>
+        </property>
+        <property name="set" value="1"></property>
+<!--        如果集合中的元素只有一个，可以使用这种方法-->
+        <property name="strs">
+            <array>
+                <value>1</value>
+                <value>2</value>
+            </array>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="d" value="d"></entry>
+            </map>
+        </property>
+<!--        <property name="demo">-->
+<!--            <props>-->
+<!--                <prop key="key1">value</prop>-->
+<!--                <prop key="key2">value</prop>-->
+<!--            </props>-->
+<!--        </property>-->
+        <property name="desk" ref="desk"></property>
+<!-- 当赋值为对象时，使用ref-->
+    </bean>
+    <bean id="desk" class="com.Desk">
+        <property name="id" value="1"></property>
+        <property name="price" value="12.5"></property>
+    </bean>
+<!--    实例工厂设计模式-->
+<!--    <bean id="factory" class="com.peopleFactory"></bean>-->
+<!--    <bean id="peo1" factory-bean="factory" factory-method="newInstance"></bean>-->
+
+<!--静态工厂设计模式-->
+<!--   只是factory 中的  newInstance 方法不同，其他同上-->
+    <bean id="peo2" class="com.peopleFactory" factory-method="newInstance"></bean>
+
+</beans>

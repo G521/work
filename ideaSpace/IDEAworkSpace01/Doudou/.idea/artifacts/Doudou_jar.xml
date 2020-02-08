@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Doudou:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Doudou_jar</output-path>
+    <root id="archive" name="Doudou.jar">
+      <element id="module-output" name="Doudou" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/javazoom/jlayer/1.0.1/jlayer-1.0.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

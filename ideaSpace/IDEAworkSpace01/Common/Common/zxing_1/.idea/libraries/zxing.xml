@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="zxing">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/zxing/zxing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jdk-8u5-windows-x64-demos/安安.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../jdk-8u5-windows-x64-demos/安安.jar!/" />
+    </SOURCES>
+    <jarDirectory url="jar://$PROJECT_DIR$/out/artifacts/zxing/zxing.jar!/" recursive="false" />
+  </library>
+</component>

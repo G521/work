@@ -1,0 +1,5 @@
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane>
+    fx:controller="sample.Controller"
+</AnchorPane>

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="demo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/demo_jar</output-path>
+    <root id="archive" name="demo.jar">
+      <element id="module-output" name="demo" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/clojure/java.jdbc/0.7.10/java.jdbc-0.7.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/clojure/clojure/1.7.0/clojure-1.7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/sobte/cqp/jcq-coolq/1.2.7/jcq-coolq-1.2.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

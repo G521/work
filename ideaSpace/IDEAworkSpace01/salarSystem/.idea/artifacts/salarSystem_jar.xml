@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="salarSystem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/salarSystem_jar</output-path>
+    <root id="archive" name="salarSystem.jar">
+      <element id="module-output" name="salarSystem" />
+    </root>
+  </artifact>
+</component>

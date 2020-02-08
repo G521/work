@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Maven: javazoom:jlayer:1.0.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javazoom/jlayer/1.0.1/jlayer-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Doudou.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
