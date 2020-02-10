@@ -20,6 +20,8 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class translate {
+    private static String from="zh";
+    private static String to="en";
     private static final String key="Gu0fnkEDNhgvRJFKmxTA";
     public static final String appid="20190206000264030";
     public static String result(String info,String from,String to) {
@@ -108,11 +110,8 @@ public class translate {
             try {
 
                 sb.append(i.getKey()).append("=").append(URLEncoder.encode(i.getValue()+"","UTF-8")).append("&");
-
             } catch (UnsupportedEncodingException e) {
-
                 e.printStackTrace();
-
             }
         }
         return sb.toString();
@@ -127,14 +126,20 @@ public class translate {
         return string.toString();
     }
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        while (in.hasNext()) {
-            String result = translation.translate.result(in.nextLine(), "zh", "jp");
-            if (result.startsWith("\\u")) {
-                System.out.println(unicodeToString(result));
-            } else {
-                System.out.println(result);
-            }
+        if (args.length==0||args[0].equals("-h")||args[0].equals("--help")||args[0].equals("-help")){
+            System.out.println("\n\n\nuse as :\n 'java translate en Chinese' translate Chinese to English'\n'java translate ch English' translate English to Chinese\n\n\n\n");
+        }
+        else if (args[0].contains("ch")){
+            from="zh";
+            to="en";
+            System.out.println(translate.result(args[1],from,to));
+        }
+        else if (args[0].contains("en")){
+            from="en";
+            to="zh";
+            System.out.println(translate.result(args[1],from,to));
+        }else {
+            System.out.println("Exception   ......... erro input!");
         }
     }
 }

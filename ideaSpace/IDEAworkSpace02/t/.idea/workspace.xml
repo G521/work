@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fca2ac4d-dec0-42ce-bcc2-a4360ef9b50d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../javaFX/out/production/javaFX/lesson/Checkbox/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javaFX/out/production/javaFX/lesson/Checkbox/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaFX/out/production/javaFX/lesson/Checkbox/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javaFX/out/production/javaFX/lesson/Checkbox/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaFX/out/production/javaFX/lesson/Checkbox/Main4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaFX/out/production/javaFX/lesson/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javaFX/out/production/javaFX/lesson/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaFX/src/lesson/Checkbox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaFX/src/lesson/Checkbox/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaFX/src/lesson/Checkbox/Main4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaFX/src/lesson/ComboBox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaFX/src/lesson/ComboBox/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaFX/src/lesson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaFX/src/lesson/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="XSLT Stylesheet" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XYkHzvm0WJ0lxEggHyeZAOeJnM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="te.xsl" type="XSLT" factoryName="XSLT" temporary="true">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <XsltFile url="file://$PROJECT_DIR$/src/te.xsl" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="XSLT.te.xsl" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fca2ac4d-dec0-42ce-bcc2-a4360ef9b50d" name="Default Changelist" comment="" />
+      <created>1581230331758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581230331758</updated>
+      <workItem from="1581230335444" duration="120000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="592" y="140" width="792" height="825" key="#te.xsl" timestamp="1581230380778">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="592" y="140" width="792" height="825" key="#te.xsl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1581230380778" />
+  </component>
+</project>
